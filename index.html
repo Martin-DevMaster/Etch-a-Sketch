@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="mainContainer">
+    <div class="squareOptions">
+        <div class="colorPick">
+        <p><label for="color">Choose color of squares:</label></p>
+        <input type="color" value="#e5e5e5" id="color">
+    </div>
+    <div>
+        <button class="randomColorBtn">Random Colors</button>
+        <button class="resetBtn">Reset</button>
+        <p>Choose squares:</p>
+        <p><span>16</span>x<span>16</span></p>
+        <input type="range" value= "16" min="1" max="60" id="range">
+    </div>
+    </div>
+    <div class="titleContainer">
+    <h1>Etch-a-Sketch</h1>
+    <div class="squareContainer">
+    </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
